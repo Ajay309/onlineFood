@@ -1,0 +1,132 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&family=Gabarito:wght@400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Outline&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+   
+    line-height: 25px;
+    box-sizing: border-box;
+
+    
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.menu{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+ .menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover {
+    color: #ff7f50
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3%;
+   }
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+   }
+.text-center{ 
+    text-align: center;
+}
+
+.tbl-full{
+    width: 100%;
+
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+         
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+
+}
+
+.btn-secondary{
+    background-color: #B31312;
+    padding: 1%;
+    
+    color: rgb(14, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #3742fa;
+
+}
+
+.btn-danger{
+    background-color: #0766AD;
+    padding: 1%;
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #3742fa;
+
+}
+
+.tbl-30{
+    width: 30%;
+}
+.footer{
+   background-color: #ff4757;
+   color: white;
+  
+
+}
+
