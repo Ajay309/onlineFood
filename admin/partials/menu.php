@@ -8,7 +8,8 @@ include('../config/constant.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/admin.css">
-       
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1572403065331800"
+    crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="menu">
@@ -20,7 +21,6 @@ include('../config/constant.php');
         <li><a href="manage-food.php">Food</a></li>
         <li><a href="manage-order.php">Order</a></li>
         </ul>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1572403065331800"
-     crossorigin="anonymous"></script>
+       
     </div>
     </div>
