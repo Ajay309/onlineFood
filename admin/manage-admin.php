@@ -67,5 +67,7 @@
 <?php
     include('partials/footer.php');
 ?>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1572403065331800"
+     crossorigin="anonymous"></script>
 </body>
 </html>

@@ -20,5 +20,7 @@ include('../config/constant.php');
         <li><a href="manage-food.php">Food</a></li>
         <li><a href="manage-order.php">Order</a></li>
         </ul>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1572403065331800"
+     crossorigin="anonymous"></script>
     </div>
     </div>
