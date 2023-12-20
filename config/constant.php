@@ -1,4 +1,7 @@
 <?php
+
+session_start();
+define('SITEURL', 'http://localhost/onlinefood/');
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');

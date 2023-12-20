@@ -18,7 +18,14 @@
         <br />   
          <a href="add-admin.php" class="btn-primary">Add Admin</a>
 
-        <br />   <br />
+        <br />  <br />
+
+           <?php
+           if(isset($_SESSION['add'])){
+               echo $_SESSION['add'];
+               unset($_SESSION['add']);}
+           ?>
+
         <table class="tbl-full">
             <tr>
                 <th>S.N.</th>

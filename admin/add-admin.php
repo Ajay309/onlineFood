@@ -74,9 +74,12 @@ if(isset($_POST['submit']))
     
     $sql = "INSERT INTO `tbl_admin` (`id`,`full_name`, `username`, `password`) VALUES (NULL,'$fullname', '$user_name', '$pass_word')";
     $result = $conn->query($sql);
-    if ($result) {
+    if ($result == true) {
       $_SESSION['add'] = "<div class='success'>Admin Added Successfully.</div>";
+      header("location:".SITEURL.'admin/manage-admin.php');
     } else { 
+        $_SESSION['add'] = "<div class='success'>Failed to Add Admin.</div>";
+      header("location:".SITEURL.'admin/add-admin.php');
     echo "Error: " . $sql . "<br>" . $conn->error;
         }
 //    $res = mysqli_query($conn , $sql) or die (mysqli_error());
